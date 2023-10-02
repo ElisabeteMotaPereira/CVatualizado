@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    font-family: Verdana, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #34285b;
+    background: linear-gradient(to left, #797793,#4b4680,#34285b);
+    width: 98%;
+    margin: 0;
+    padding: 50px 10px 30px 10px;
+    color: #e7dfdf;
+}
+
+.container1 i {
+    display: inline-block;
+}
+
+.endereço {
+    display: inline-block;
+    margin-top: 0;
+    font-size: 16px;
+}
+/*
+.dados {
+    font-weight: lighter;
+    line-height: 1.9;
+    color: rgb(205, 4, 4);
+}*/
+
+.inicio img {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: solid 5px #ffffff;
+    margin-left: 15px;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+.redes {
+    padding: 10px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+}
+
+.redes a:hover {
+    scale: 2;
+}
+
+.icones {
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.main {
+    width: 80%;
+}
+
+.sobre {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    line-height: 1.5;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.subtitle {
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 1px;
+    color:#ffffff;
+    background-color: #34285b;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin-top: 40px;
+    letter-spacing: .7px;
+}
+
+.forma {
+    background-color: #34285b;
+    height: 3px;
+    opacity: 90%;
+}
+
+ul {
+    margin: 20px 0px;
+}
+
+.cursos, .entrada, .habilidade {
+    margin: 10px;
+    line-height: 1.5;
+}
+
+.curso-compl, .lang, .level {
+    margin: 30px;
+    line-height: 1.5; 
+}
+
+.language {
+    line-height: 1.5; 
+}
+
+.level {
+    font-style: italic;
+}
+
+.container-lang {
+    justify-content: space-around;
+    margin: 25px;
+}
+
+footer {
+    background-color: #34285b;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0px;
+}
+
+.txt-footer {
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    text-decoration: none;
+}
